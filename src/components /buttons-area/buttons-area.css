@@ -1,0 +1,12 @@
+.ButtonsArea{
+    width: 300px;
+    height:fit-content;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.ButtonsArea > .operation:last-child {
+    width: 100%;
+}
