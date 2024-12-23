@@ -5,20 +5,19 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
+.number,.operation {
+
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
+.number:hover ,.operation:hover{
   filter: drop-shadow(0 0 2em #646cffaa);
 }
-.logo.react:hover {
+.number.react:hover, .operation.react:hover  {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-@keyframes logo-spin {
+@keyframes number {
   from {
     transform: rotate(0deg);
   }
