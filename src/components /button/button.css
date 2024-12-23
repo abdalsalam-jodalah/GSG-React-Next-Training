@@ -1,0 +1,20 @@
+.number{
+    background-color: #3463dd;
+}
+.operation{
+    background-color: chocolate ;
+}
+.number,.operation{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    color: #f9f9f9;
+    margin: 5px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*.number:hover,.operation:hover {*/
+/*border: #e6e3a4 1px solid;*/
+/*}*/
