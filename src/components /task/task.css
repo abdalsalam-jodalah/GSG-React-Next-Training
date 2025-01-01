@@ -1,0 +1,64 @@
+.task-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.task-wrapper.important {
+    border-color: #ff6347;
+    background-color: #ffe5e5;
+}
+.task-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.task-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+.mark-important {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.mark-important:hover {
+    background-color: #0056b3;
+}
+
+.remove-task {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.remove-task:hover {
+    background-color: #c82333;
+}
+
+.remove-task:active {
+    background-color: #a71d2a;
+}
